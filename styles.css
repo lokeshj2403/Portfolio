@@ -531,6 +531,10 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
+.certification-card .btn {
+  margin-top: 1.5rem;
+}
+
 .cert-icon {
   font-size: 3rem;
   margin-bottom: 1rem;

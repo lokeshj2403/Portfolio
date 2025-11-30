@@ -76,7 +76,7 @@ contactForm.addEventListener('submit', (e) => {
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
-  const mailtoLink = `mailto:lokeshjreddy2403@gmail.com?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(email)}`;
+  const mailtoLink = `mailto:lokesh.j@zohomail.in?subject=Portfolio Contact from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AFrom: ${encodeURIComponent(email)}`;
 
   window.location.href = mailtoLink;
 
